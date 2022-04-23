@@ -1,5 +1,5 @@
 <?php
-    $conn = mysqli_connect('sql3.freemysqlhosting.net', 'sql3487600', 'l9crqce8Tx', 'sql3487600') or die('connection failed');
+    $conn = mysqli_connect('sql3.freemysqlhosting.net', 'sql3487600', '', 'sql3487600') or die('connection failed');
 
     if (isset($_POST['submit'])) {
         $name = mysqli_real_escape_string($conn, $_POST['name']);
